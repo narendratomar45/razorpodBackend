@@ -8,6 +8,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://razorpod.netlify.app",
       "https://razorpodfrontend-production.up.railway.app",
     ],
   })
